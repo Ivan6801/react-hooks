@@ -1,0 +1,15 @@
+.Search input {
+  width: 350px;
+  height: 40px;
+  padding: .7em;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 380px) {
+  .Search input {
+    width: 200px;
+  }
+}
